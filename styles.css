@@ -1,0 +1,40 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(BEBAS-REGULAR.OTF);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+body {
+    background-image: url(senecaback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #191919;
+    color: #ffffff;
+    font-family: bebas;
+    font-size: 3.6em;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
